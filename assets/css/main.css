@@ -3998,21 +3998,23 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
+
+
 	.bio-list {
 		list-style: none;
 	}
 	.bio-list li i {
-		top: 12px;
-    transform: rotate(45deg);
-    position: absolute;
-    font-size: 40px;
-		left: 12px;
+		top: calc((100% - 40px) * 0.5);
+		left: calc((100% - 40px) * 0.5);
+		transform: rotate(45deg);
+		position: absolute;
+		font-size: 40px;
 	}
 	#ruby-icon {
 		top: 8px;
-    transform: rotate(45deg);
-    position: absolute;
-    font-size: 50px;
+		transform: rotate(45deg);
+		position: absolute;
+		font-size: 50px;
 		left: 5px;
 	}
 
