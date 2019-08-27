@@ -4033,6 +4033,13 @@ input, select, textarea {
 		font-size: 30px;
 	}
 
+	.banner-icons-social-sub {
+		font-size: 25px;
+	}
+	.banner-body {
+		font-size: 15px;
+	}
+
 	.icons li:hover {
 		color: #CCCCCC;
 	}
