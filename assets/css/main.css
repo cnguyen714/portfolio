@@ -4003,19 +4003,13 @@ input, select, textarea {
 	.bio-list {
 		list-style: none;
 	}
+
 	.bio-list li i {
 		top: calc((100% - 40px) * 0.5);
 		left: calc((100% - 40px) * 0.5);
 		transform: rotate(45deg);
 		position: absolute;
 		font-size: 40px;
-	}
-	#ruby-icon {
-		top: 8px;
-		transform: rotate(45deg);
-		position: absolute;
-		font-size: 50px;
-		left: 5px;
 	}
 
 	.icon-dark-teal {
@@ -4033,4 +4027,17 @@ input, select, textarea {
 		border-radius: 3px;
 		display: block;
 		width: 100%;
+	}
+
+	.banner-icons-social {
+		font-size: 30px;
+	}
+
+	.icons li:hover {
+		color: #CCCCCC;
+	}
+
+	.major img {
+		border-radius: 10px;
+		border: 6px solid rgba(0, 0, 0, 0.125);
 	}
