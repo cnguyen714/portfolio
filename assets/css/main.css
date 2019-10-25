@@ -178,7 +178,8 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.35em;
-		line-height: 1.75em;
+		/* line-height: 1.75em; */
+		line-height: 0em;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -212,6 +213,7 @@ input, select, textarea {
 	h5 {
 		font-size: 0.8em;
 		line-height: 1.5em;
+		padding-bottom: 1.5em;
 	}
 
 	h6 {
