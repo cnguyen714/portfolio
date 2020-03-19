@@ -4006,16 +4006,41 @@ input, select, textarea {
 		list-style: none;
 	}
 
+	.bio-list li {
+		/* width: 120px; */
+		position: relative;
+	}
+
 	.bio-list li i {
+		position: absolute;
 		top: calc((100% - 40px) * 0.5);
 		left: calc((100% - 40px) * 0.5);
 		transform: rotate(45deg);
-		position: absolute;
 		font-size: 40px;
 	}
 
 	.icon-dark-teal {
 		color: rgb(23,120,120);
+	}
+
+	.label-dev {
+		display: inline-block;
+		position: absolute;
+		left: calc((3em + 2px) * 0.65);
+		bottom: -2px;
+		transform: translate(-50%);
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.label-dev {
+			display: inline-block;
+			position: absolute;
+			left: calc((4em + 2px) * 0.6);
+			bottom: -8px;
+			transform: translate(-50%);
+		}
+
 	}
 
 	#particles-js {
